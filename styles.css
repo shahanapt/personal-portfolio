@@ -85,6 +85,10 @@ span{
     border-radius: 5px;
 }
 
+.detail a:hover{
+    background: #75a534;
+}
+
 .images{
     width: 45%;
     height: 80%;
@@ -107,4 +111,33 @@ span{
 }
 .images:hover .girl{
     left:45%;
+}
+
+.second-section{
+    background: white;
+    /* display: flex; */
+}
+
+.second-section .about-img{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    /* bottom: 0; */
+    /* right: 100px; */
+}
+
+.second-section .about-img img{
+    height: 100%;
+    position: absolute;
+    /* left: 50%; */
+    /* bottom: 0; */
+    /* transform: translateX(-50%);
+    transition: bottom 1s, left 1s; */
+}
+.second-section .about{
+    width: 50%;
+}
+
+.second-section .description{
+    width: 50%;
 }
